@@ -1,0 +1,64 @@
+.balance-card {
+    position: relative;
+    width: 486px;
+    height: 244px;
+    background: #E5F2FE;
+    border-radius: 24px;
+    padding: 26px 28px 25px 35px;
+
+    // .balance-card__balance
+
+    &__balance {}
+
+    // .balance-card__value
+
+    &__value {
+        margin-bottom: 10px;
+    }
+
+    // .balance-card__dewsc
+
+    &__dewsc {}
+
+    // .balance-card__settings
+
+    &__settings {
+        position: absolute;
+        top: 37px;
+        right: 28px;
+
+    }
+
+    // .balance-card__period
+
+    &__period {
+        position: absolute;
+        left: 34px;
+        bottom: 25px;
+
+        & > * + * {
+            margin-left: 24px;
+        }
+    }
+
+    // .balance-card__period-btn
+
+    &__period-btn {
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        color: #ACBCCD;
+
+        &--active {
+            color: #040404;
+        }
+    }
+
+    // .balance-card__chart
+
+    &__chart {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-bottom: 27px;
+    }
+}

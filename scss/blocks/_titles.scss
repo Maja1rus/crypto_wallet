@@ -1,0 +1,36 @@
+.title {
+    color: #000000;
+
+    &-1 {
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    &-2 {
+        font-weight: 600;
+        font-size: 27.5px;
+    }
+
+    &-3 {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    &-4 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    &-5 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+
+.subtitle {
+    color: #000000;
+
+    &-1 {
+        font-size: 14px;
+    }
+}

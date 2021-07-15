@@ -1,0 +1,32 @@
+.coin {
+    display: flex;
+    align-items: center;
+
+    // .coin__icon
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        width: 50px;
+        height: 50px;
+        background-color: #222222;
+        border-radius: 15px;
+    }
+
+    // .coin__text
+
+    &__text {}
+
+    // .coin__title
+
+    &__title {}
+
+    // .coin__desc
+
+    &__desc {
+        font-size: 14px;
+        color: #7A899A;
+    }
+}

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #E5F2FE;
+    background-image: url('./../img/bg/lines.svg');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #020B2A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}

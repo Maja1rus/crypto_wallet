@@ -1,0 +1,103 @@
+.earn-free-wrapper {
+    position: relative;
+    align-self: flex-start;
+
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        width: 345px;
+        height: 48px;
+        bottom: -16px;
+        left: 8%;
+        // right: 50%;
+        // transition: translateX(-50%);
+        background: #DFDFE3;
+        border-radius: 24px;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        bottom: -28px;
+        left: 14%;
+        // right: 50%;
+        // transition: translateX(-50%);
+        width: 295px;
+        height: 48px;
+        background: #F0F0F1;
+        border-radius: 24px;
+    }
+}
+
+.earn-free {
+    position: relative;
+    z-index: 9;
+    padding: 60px 40px 60px 35px;
+    width: 410px;
+    height: 363px;
+    background: #222222;
+    border-radius: 30px;
+
+    color: #fff;
+
+    background-image: url('./../img/earn-card/bg-cards.svg');
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: right bottom;
+
+
+    // .earn-free__title
+
+    &__title {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+
+        b {
+            font-weight: 700;
+        }
+    }
+
+    // .earn-free__title-free
+
+    &__title-free {
+        display: inline-block;
+        background-image: url('./../img/earn-card/free.svg');
+        width: 97.3px;
+        height: 74.73px;
+        font-size: 0;
+        vertical-align: middle;
+    }
+
+    // .earn-free__text
+
+    &__text {
+        margin-bottom: 35px;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    // .earn-free__btn-wrapper
+
+    &__btn-wrapper {}
+
+    // .earn-free__btn
+
+    &__btn {
+        display: inline-block;
+        padding: 11px 35px 11px 35px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000;
+        background: #BCDFFF;
+        border-radius: 23px;
+        transition: .3s ease;
+
+        &:hover {
+            background: #e5f2fe;
+        }
+    }
+}

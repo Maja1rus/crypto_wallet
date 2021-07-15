@@ -1,0 +1,42 @@
+.user-profile {
+    display: flex;
+    height: 54px;
+    padding: 0 0 0 10px;
+    background: #F2F5FA;
+    border-radius: 27px;
+    transition: .3s ease;
+
+    &:hover {
+        background: #BCDFFF;
+    }
+
+    // .user-profile__avatar
+    
+    &__avatar {
+        margin: -16px 6px 0 4px;
+        cursor: pointer;
+    }
+
+    // .user-profile__nav-btn
+
+    &__nav-btn {
+        position: relative;
+        padding-right: 41px;
+        font-weight: 500;
+        font-size: 17px;
+        letter-spacing: 0.02em;
+        color: #0B1432;
+
+        &::after {
+            position: absolute;
+            right: 21px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: block;
+            content: '';
+            background-image: url('./../img/top-icons/arrow.svg');
+            width: 12px;
+            height: 7px;
+        }
+    }
+}

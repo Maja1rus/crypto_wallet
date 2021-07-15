@@ -1,0 +1,23 @@
+.assets {
+    flex-grow: 1;
+    // .assets__header
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+
+    // .assets__title
+
+    &__title {}
+
+    &__card {
+        display: flex;
+
+        & > * + * {
+            margin-left: 30px;
+        }
+    }
+}
+

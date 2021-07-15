@@ -1,0 +1,74 @@
+.asset-card {
+    position: relative;
+    width: 194px;
+    min-height: 244px;
+    background: #E5DEF0;
+    border-radius: 24px;
+    padding: 26px 24px 25px 25px;
+
+        &:nth-of-type(2) .asset-card__income {
+            color: #4BA582;
+        }
+
+        &:nth-of-type(3) .asset-card__income {
+            color: #FAA68E;
+        }
+
+        &:nth-of-type(2) {
+            background: #D6EDDA;
+        }
+
+        &:nth-of-type(3) {
+            background: #F6F0D8;
+        }
+
+    // .asset-card__value
+
+    &__value {
+        margin-bottom: 10px;
+    }
+
+    // .asset-card__dewsc
+
+    &__dewsc {
+        margin-bottom: 67px;
+    }
+
+    // .asset-card__settings
+
+    &__settings {
+        position: absolute;
+        top: 35px;
+        right: 14px;
+    }
+
+    // .asset-card__footer
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .asset-card__icon
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+        height: 56px;
+        background: #FFFFFF;
+        border-radius: 14px;
+    }
+
+    // .asset-card__income
+
+    &__income {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        color: #896AB9;
+    }
+}

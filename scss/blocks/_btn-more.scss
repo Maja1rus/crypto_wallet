@@ -1,0 +1,36 @@
+%round {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #A0A9B2;
+}
+
+.btn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+
+    &__icon {
+        position: relative;
+        display: block;
+        @extend %round;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: 0;
+            @extend %round;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            @extend %round;
+        }
+    }
+}

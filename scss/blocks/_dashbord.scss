@@ -1,0 +1,74 @@
+.dashboard {
+    position: absolute;
+    display: block;
+    top: 20px;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1439px;
+    height: 930px;
+
+    background: #202020;
+    border-radius: 50px;
+
+    // .dashboard__nav
+
+    &__nav {
+        flex-shrink: 0;
+        width: 138px;
+        padding: 40px 0 75px;
+    }
+
+    // .dashboard__body
+
+    &__body {
+        flex-grow: 1;
+        margin: 17px 20px 10px 0;
+        padding: 26px 56px 54px 68px;
+        background: #FFFFFF;
+        border-radius: 45px;
+    }
+
+    // .dashboard__header
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 28px;
+    }
+    // .dashboard__header-icons
+
+    &__header-icons {
+        display: flex;
+
+        &>*+* {
+            margin-left: 16px;
+        }
+    }
+
+    // .dashboard__cards
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    &__cards > * + * {
+        margin-left: 30px;
+    }
+
+    // .dashboard__market
+
+    &__market {
+        display: flex;
+
+        & >*+* {
+            margin-left: 30px;
+        }
+
+    }
+}

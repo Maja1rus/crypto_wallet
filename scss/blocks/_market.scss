@@ -1,0 +1,44 @@
+.market {
+    flex-grow: 1;
+
+    // .market__header
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    // .market__header-btn
+
+    &__header-btn {
+        display: flex;
+
+        &>*+* {
+            margin-left: 16px;
+        }
+    }
+}
+
+.dropdown-btn {
+    position: relative;
+    padding: 10px 38px 10px 20px;
+
+    border: 1px solid #EFF2F4;
+    border-radius: 22px;
+
+    font-size: 16px;
+
+
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 18px;
+        transform: translateY(-50%);
+        width: 12px;
+        height: 7px;
+        background-image: url("./../img/top-icons/arrow.svg");
+    }
+}

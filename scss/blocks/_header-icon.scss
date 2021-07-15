@@ -1,0 +1,40 @@
+.btn {
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        background: #F2F5FA;
+        border-radius: 50%;
+        transition: .3s ease;
+
+        &:hover {
+            background: #BCDFFF;
+        }
+    }
+
+    // .btn__search
+
+    &__header-search {}
+
+    // .btn__notifications
+
+    &__header-notifications {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 50%;
+            left: 50%;
+            display: block;
+            width: 9px;
+            height: 9px;
+            background: #FF5E5E;
+            border-radius: 50%;
+            border: #fff solid 2px;
+        }
+    }
+}
